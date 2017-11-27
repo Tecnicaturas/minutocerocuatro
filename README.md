@@ -10,16 +10,17 @@ El dispositivo es una caja "blanca" en el que solo están visibles dos puertos U
 el dispositivo reproduce audios de distintos autores sobre el amplio movimiento de cultura libre y sus luchas.
 
  
-## Hardware/Software
+>>Hardware/Software
 
-Hardware
+>>>Hardware
 - Raspberry Pi 3
 - Hub USB
 - Camara Digital
 - Parlantes USB
 
-Software
- Para la programación del dispositivo se combinan Bash y Python.
+>>>Software
+
+Para la programación del dispositivo se combinan Bash y Python.
 Con Bash se trabaja sobre el gestor de dispositivos UDEV (https://es.wikipedia.org/wiki/Udev) del Kernel de Linux, con el cuál se detecta los dispostivos USB que se conectan, se montan, se copia la información y se desmontan. Con Bash tambien se reproducen audios que aluden al ingreso del Pendrive y cuando se ha terminado de copiar, se obtiene una fotografía desde la cámara web oculta en el dispositivo. Al terminar de copiar toda esa información se reproducen los audios sobre las luchas del Movimiento Cultura Libre.
 Con Python se controla el encendido y apagado del led.
 
