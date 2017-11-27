@@ -1,0 +1,4 @@
+KERNEL=="sd[a-z][1-9]", RUN+="/bin/bash /home/pi/original/rosaProfana/Programa/copia.sh" 
+
+# para saber mas https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
+
